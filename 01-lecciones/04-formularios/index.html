@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="section content">
+            <h1>KODOTI - JavaScript Developer</h1>
+
+            <h2 class="title">FORMULARIO</h2>
+
+            <form id="user-form">
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input name="name" class="input" type="text" placeholder="Text input">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Username</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input name="username" class="input" type="text" placeholder="Text input">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input name="email" class="input" type="email" placeholder="Email input">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Country</label>
+                    <div class="control">
+                        <div class="select is-fullwidth">
+                            <select name="country">
+                                <option disabled selected value="">Select your country</option>
+                                <option value="PE">Perú</option>
+                                <option value="MX">México</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input name="terms" type="checkbox">
+                            I agree to the <a href="#">terms and conditions</a>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Do you want be part of our mailing bulletin?</label>
+                    <div class="control">
+                        <label class="radio">
+                            <input value="1" name="bulletin" type="radio">
+                            Yes
+                        </label>
+                        <label class="radio">
+                            <input value="0" name="bulletin" type="radio">
+                            No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Choose your preferences</label>
+                    <div class="control">
+                        <label class="radio">
+                            <input value="1" name="preferences" type="checkbox">
+                            Angular
+                        </label>
+                        <label class="radio">
+                            <input value="2" name="preferences" type="checkbox">
+                            VueJs
+                        </label>
+                        <label class="radio">
+                            <input value="3" name="preferences" type="checkbox">
+                            JavaScript
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button type="submit" class="button is-link">Submit</button>
+                    </div>
+                    <div class="control">
+                        <button type="reset" class="button is-text">Cancel</button>
+                    </div>
+                </div>
+            </form>
+
+            <footer>
+                <hr>
+                <p>Este ejemplo ha sido realizado por <a href="https://www.youtube.com/channel/UCjay76-vPuSqSEmDM6PD74Q?sub_confirmation=1">KODOTI</a>.</p>
+            </footer>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

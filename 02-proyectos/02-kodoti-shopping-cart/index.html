@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://kodoti.com">
+                    <img src="images/logo.png" alt="KODOTI">
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <div id="amount" class="navbar-item is-size-5">
+                        S/. 14,800.85
+                    </div>
+                    <div class="navbar-item">
+                        <span>
+                            <span class="icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </span>
+                            <span id="total" class="tag is-danger">14</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <section class="section content">
+            <h1 class="title">KODOTI - JavaScript Developer</h1>
+
+            <div class="box has-text-right">
+                <div class="select">
+                    <select id="filter">
+                        <option selected disabled value="">Ordenamiento</option>
+                        <option value="price-asc">Precios más bajos</option>
+                        <option value="price-desc">Precios más altos</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <select id="exchangeRate">
+                        <option selected disabled value="">Moneda</option>
+                        <option value="en-US">Dólares americanos</option>
+                        <option value="es-PE">Nuevo Soles</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="catalog"></div>
+
+            <footer>
+                <hr>
+                <p>Este ejemplo ha sido realizado por <a href="https://www.youtube.com/channel/UCjay76-vPuSqSEmDM6PD74Q?sub_confirmation=1">KODOTI</a>.</p>
+            </footer>
+        </section>
+    </div>
+
+    <script src="kodoti.catalog.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
