@@ -11,7 +11,7 @@ Encontrarán los proyectos realizados durante el desarrollo del curso.
 * Kodoti.ShoppingCart: un carrito de compra.
 
 ## ¿Dónde puedo tomar el curso?
--- proximamente
+https://www.udemy.com/course/javascript-developer-no-todo-es-framework/?referralCode=C86FF77B03DEEB4AD60A
 
 ## ¿Te gusta lo que hacemos?
 Si te gusta lo que hacemos te invitamos a unirte a nuestro canal de YouTube.
